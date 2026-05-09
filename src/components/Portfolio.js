@@ -12,7 +12,7 @@ function Portfolio() {
 
       <div className="grid portfolio-grid">
         <div className="portfolio-item">
-          <img src={images.services.seo} alt="SEO growth campaign" loading="lazy" />
+          <img src={images.services.seo} className="img-contain" alt="SEO growth campaign" loading="lazy" />
           <div className="portfolio-meta">
             <h3>SEO Growth</h3>
             <p>Keyword strategy + technical fixes to lift rankings and organic traffic.</p>
@@ -28,7 +28,7 @@ function Portfolio() {
         </div>
 
         <div className="portfolio-item">
-          <img src={images.services.branding} alt="Branding and creative system" loading="lazy" />
+          <img src={images.services.branding} className="img-contain" alt="Branding and creative system" loading="lazy" />
           <div className="portfolio-meta">
             <h3>Brand & Creative</h3>
             <p>Messaging, visuals, and guidelines for a consistent brand presence.</p>

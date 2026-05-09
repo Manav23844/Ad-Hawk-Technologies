@@ -4,10 +4,135 @@ export const servicesData = [
   {
     key: "seo",
     icon: "SEO",
-    title: "Search Engine Optimization (SEO)",
+    title: "Best SEO Agency to Grow Your Business Organically",
     image: images.services.seo,
-    intro:
-      "Search Engine Optimization is the foundation of sustainable online growth. Our SEO strategies are designed to improve your website’s visibility on search engines and attract high-quality organic traffic.",
+    headline: "Best SEO Agency to Grow Your Business Organically",
+    intro: "Are you tired of SEO agencies that promise the world but deliver nothing? At Adhawk Technologies, we do things differently. We help businesses rank higher on Google, attract the right audience, and convert organic traffic into real, measurable revenue — not just vanity metrics.",
+    description: [
+      "We don't believe in cookie-cutter strategies. Before we touch a single keyword, we take the time to understand your business, your customers, and your goals. Then we build a custom SEO roadmap that actually moves the needle.",
+      "Whether you're a scrappy startup, a local service provider, or a growing eCommerce brand, we're focused on what truly matters: higher rankings, quality leads, and sustainable long-term growth."
+    ],
+    content: [
+      { type: "h3", text: "Why Choose Adhawk Technologies as Your SEO Partner?" },
+      { type: "p", text: "There's no shortage of SEO agencies out there — but very few can back up their promises with results. Here's what sets us apart:" },
+      { type: "ul", items: [
+        "Result-driven strategies — every decision is backed by data, not guesswork.",
+        "Quality traffic over empty numbers — we target visitors who are ready to buy.",
+        "Precision keyword targeting — we go after terms that bring real customers, not just clicks.",
+        "Technical depth meets creative execution — we handle both the backend and the content.",
+        "Full transparency — you'll always know what we're doing and why it's working."
+      ] },
+      { type: "p", text: "We help you grow organically, consistently, and in a way that lasts." },
+
+      { type: "h3", text: "Our SEO Services" },
+
+      { type: "h4", text: "On-Page SEO" },
+      { type: "p", text: "Your website is your digital storefront — and first impressions matter. We optimize everything your visitors and search engines see, including:" },
+      { type: "ul", items: [
+        "Content optimization with targeted, high-intent keywords",
+        "SEO-friendly URLs and smart internal linking structures",
+        "Image compression for faster page load times",
+        "Compelling meta titles, meta descriptions, and structured data markup"
+      ] },
+      { type: "p", text: "The result: Better search rankings, a smoother user experience, and higher on-page engagement." },
+
+      { type: "h4", text: "Off-Page SEO" },
+      { type: "p", text: "Great SEO doesn't stop at your website. We build your brand's authority and reputation across the web through:" },
+      { type: "ul", items: [
+        "High-quality, white-hat backlink acquisition",
+        "Guest posting on relevant, authoritative sites",
+        "Business directory listings and consistent NAP citations",
+        "Strategic social bookmarking"
+      ] },
+      { type: "p", text: "The result: A stronger domain authority and greater credibility in Google's eyes." },
+
+      { type: "h4", text: "Technical SEO" },
+      { type: "p", text: "Behind every high-ranking website is a rock-solid technical foundation. We audit, fix, and optimize:" },
+      { type: "ul", items: [
+        "Website architecture and crawlability",
+        "XML sitemaps and indexing configurations",
+        "Page speed and Core Web Vitals performance",
+        "Mobile responsiveness and overall site health"
+      ] },
+      { type: "p", text: "The result: A faster, cleaner, and fully search-engine-friendly website." },
+
+      { type: "h4", text: "Local SEO" },
+      { type: "p", text: "Want nearby customers to find you before they find your competitors? Local SEO is how it happens. We help you:" },
+      { type: "ul", items: [
+        "Break into Google's coveted Local 3-Pack",
+        "Optimize your Google Business Profile for maximum visibility",
+        "Target location-specific, high-converting keywords",
+        "Drive more foot traffic, phone calls, and local leads"
+      ] },
+      { type: "p", text: "The result: More people walking through your door and calling your business." },
+
+      { type: "h4", text: "E-commerce SEO" },
+      { type: "p", text: "Running an online store? We help your products get discovered by shoppers who are already ready to buy. Our eCommerce SEO strategy includes:" },
+      { type: "ul", items: [
+        "Product and category page optimization",
+        "Buyer-intent keyword research and targeting",
+        "SEO-friendly product descriptions that also convert",
+        "Structured data markup for rich results in Google Shopping"
+      ] },
+      { type: "p", text: "The result: Greater product visibility, higher conversion rates, and more sales." },
+
+      { type: "h4", text: "Mobile SEO" },
+      { type: "p", text: "More than half of all web traffic comes from mobile devices — and Google ranks mobile-first. We make sure your site performs flawlessly on every screen, through:" },
+      { type: "ul", items: [
+        "Mobile-first design and optimization",
+        "Fast loading speeds across all devices",
+        "Responsive layouts and intuitive navigation"
+      ] },
+      { type: "p", text: "The result: Better mobile rankings and a seamless experience for your on-the-go visitors." },
+
+      { type: "h4", text: "Small Business SEO" },
+      { type: "p", text: "Limited budget? That's not a limitation — it's a challenge we love. We build lean, high-impact SEO strategies specifically for small businesses:" },
+      { type: "ul", items: [
+        "Focused, niche keyword targeting",
+        "Local SEO to dominate your immediate market",
+        "High-ROI tactics that don't require a Fortune 500 budget"
+      ] },
+      { type: "p", text: "The result: Maximum return on investment, even on a tight budget." },
+
+      { type: "h4", text: "Video SEO" },
+      { type: "p", text: "Video is one of the most powerful content formats online — but only if people can actually find it. We help your videos rank on YouTube and in Google search results by optimizing:" },
+      { type: "ul", items: [
+        "Titles, descriptions, and transcripts with targeted keywords",
+        "Video tags and custom thumbnails for better click-through rates",
+        "Channel authority and engagement signals"
+      ] },
+      { type: "p", text: "The result: More views, stronger brand awareness, and better organic reach." },
+
+      { type: "h3", text: "What Happens When You Ignore SEO? (6 Costly Consequences)" },
+      { type: "p", text: "Skipping SEO might seem like a short-term cost-saver — but over time, it silently chips away at your business growth. Here's what's at stake:" },
+      { type: "ol", items: [
+        "Your Business Becomes Invisible Online — If your website isn't optimized, it won't show up on page one. And the reality is, most users never go beyond the first page of search results. No visibility means no traffic — it's that simple.",
+        "Your Competitors Look More Credible — People inherently trust businesses that rank higher. If your competitor outranks you, they instantly appear more authoritative — even if your product or service is objectively better.",
+        "You're Missing Customers Every Single Day — Right now, potential customers are searching for exactly what you offer. Without SEO, you're not showing up — and someone else is getting that business instead.",
+        "You'll Spend More on Paid Ads — When organic traffic is absent, paid advertising becomes your only option. While ads have their place, relying on them entirely is expensive and unsustainable over the long haul.",
+        "Your Brand Stays Unknown — Consistent organic visibility is one of the most powerful tools for brand awareness. Without it, you're simply not in front of people when it matters most.",
+        "Your Competitors Pull Ahead — Your competitors are investing in SEO right now. Every day without it is a day they're gaining ground — and taking your potential customers with them."
+      ] },
+
+      { type: "h3", text: "Our Proven SEO Process" },
+      { type: "p", text: "We follow a structured, research-driven approach to ensure every campaign is built on a solid foundation:" },
+      { type: "ul", items: [
+        "Business Research & Current State Assessment — We start by learning your business inside and out",
+        "Website SEO Audit — A full technical and content audit to identify what's holding you back",
+        "Competitor Analysis — We study what's working for your competitors and find the gaps we can exploit",
+        "Keyword & Audience Research — Finding the exact terms your target customers are searching for",
+        "SEO Strategy Development — A custom on-page, technical, and off-page game plan built around your goals",
+        "On-Page SEO Implementation — Optimizing your content, structure, and metadata",
+        "Technical & Off-Page SEO Execution — Fixing backend issues and building authority",
+        "Performance Monitoring — Tracking results against clear, agreed-upon targets",
+        "Reporting & Analysis — Transparent, comprehensive reports so you always know your ROI"
+      ] },
+
+      { type: "h3", text: "Ready to Grow Your Business Organically?" },
+      { type: "p", text: "At Adhawk Technologies, we don't just chase rankings — we build lasting digital authority that drives real business results." },
+      { type: "p", text: "If you want to rank higher on Google, attract quality traffic, generate consistent leads, and grow your revenue sustainably, it's time to partner with an SEO agency that's genuinely invested in your success." },
+      { type: "p", text: "Let's talk. Your growth starts here." }
+    ],
     offers: [
       "In-depth keyword research based on user intent",
       "On-page SEO (meta tags, headings, content optimization)",
@@ -129,9 +254,155 @@ export const servicesData = [
   {
     key: "smo",
     icon: "SMO",
-    title: "Social Media Optimization (SMO)",
+    title: "Social Media Marketing Agency",
     image: images.services.smo,
-    intro: "We help brands build a strong and engaging presence across social media platforms.",
+    headline: "Social Media Marketing Agency — Drive Real Growth Across Every Platform",
+    intro: "In today's digital world, your customers are scrolling, liking, sharing, and buying on social media every single day. The question is — is your brand showing up where it matters most?",
+    description: [
+      "At Adhawk Technologies, we're a results-driven social media marketing agency that helps businesses reach wider audiences, generate high-quality leads, and turn engagement into real revenue. Every campaign we build is conversion-focused, data-backed, and tailored specifically to your brand and goals."
+    ],
+    content: [
+      { type: "h3", text: "Our Social Media Marketing Services" },
+      { type: "p", text: "No two businesses are the same — and neither are our strategies. We combine platform expertise, audience insights, and creative execution to deliver social media campaigns that actually perform." },
+      
+      { type: "h4", text: "01. Facebook Marketing" },
+      { type: "p", text: "With over 2.85 billion monthly active users, Facebook remains one of the most powerful advertising platforms in the world — if you know how to use it right." },
+      { type: "p", text: "We create Facebook ad campaigns built on solid data, deep audience research, and proven creative strategies. Whether it's organic content that builds community or highly targeted paid ads that drive conversions, our team ensures every rupee of your budget works as hard as possible." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Custom audience targeting and retargeting campaigns",
+        "Engaging organic post strategies to grow your page",
+        "A/B tested ad creatives for maximum ROI",
+        "Full funnel campaigns from awareness to conversion"
+      ] },
+      { type: "p", text: "The result: Greater brand exposure, a loyal following, and a steady flow of qualified leads." },
+
+      { type: "h4", text: "02. Instagram Marketing" },
+      { type: "p", text: "Instagram isn't just a photo-sharing app anymore — it's a lead generation powerhouse. Over 200 million people visit at least one business profile on Instagram every single day, and your brand needs to be part of that conversation." },
+      { type: "p", text: "Our Instagram marketing strategy is built around trend-driven visual content that stops the scroll, captures attention, and drives action. From Reels to Stories to shoppable posts, we help your brand create a lasting impression on the people who matter most." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "High-impact Reels and Stories content",
+        "Influencer collaboration and UGC campaigns",
+        "Instagram Shopping setup and optimization",
+        "Engagement-focused community management"
+      ] },
+      { type: "p", text: "The result: A visually compelling brand presence that attracts followers and converts them into customers." },
+
+      { type: "h4", text: "03. LinkedIn Marketing" },
+      { type: "p", text: "When it comes to B2B social media marketing, no platform comes close to LinkedIn. It's where decision-makers, industry leaders, and high-value prospects spend their time — and we help you reach them with precision." },
+      { type: "p", text: "Our LinkedIn marketing services are designed to position your brand as a credible thought leader in your industry. We create rich, insight-driven content that keeps you top of mind with your ideal clients and helps you consistently fill your B2B pipeline." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Targeted LinkedIn ad campaigns (Sponsored Content, InMail, Lead Gen Forms)",
+        "Thought leadership content and company page management",
+        "LinkedIn profile and company page optimization",
+        "Niche audience targeting by industry, role, and seniority"
+      ] },
+      { type: "p", text: "The result: Stronger professional relationships, greater brand authority, and a consistent flow of high-value B2B leads." },
+
+      { type: "h4", text: "04. YouTube Marketing" },
+      { type: "p", text: "YouTube is the second largest search engine in the world — and most businesses are completely underutilizing it. We help you change that." },
+      { type: "p", text: "Our YouTube marketing campaigns are hyper-targeted, high-impact, and designed to attract viewers who are already looking for what you offer. From pre-roll ads to in-feed video campaigns, we connect your brand with high-intent audiences and drive them straight to conversion." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "YouTube ad campaign setup and management (TrueView, bumper ads, discovery ads)",
+        "SEO-optimized video titles, descriptions, and tags",
+        "Channel growth strategies and audience building",
+        "Remarketing campaigns to re-engage past visitors"
+      ] },
+      { type: "p", text: "The result: More qualified website traffic, stronger brand recall, and campaigns that generate up to 3x more revenue than traditional display advertising." },
+
+      { type: "h4", text: "05. TikTok Marketing" },
+      { type: "p", text: "TikTok has completely transformed how brands connect with audiences. With over 1 billion active users and an algorithm that gives even new accounts the chance to go viral, TikTok represents one of the biggest organic growth opportunities available right now — especially for brands targeting younger, highly engaged audiences." },
+      { type: "p", text: "We help businesses cut through the noise with authentic, platform-native TikTok content that entertains, educates, and converts. Whether you're looking to build brand awareness or drive direct sales, our TikTok strategies are built for the way this platform actually works." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Short-form video content strategy and creation",
+        "TikTok paid ad campaigns (In-Feed Ads, TopView, Branded Hashtag Challenges)",
+        "TikTok Shop setup and product promotion",
+        "Influencer and creator partnerships for organic reach",
+        "Trend monitoring and rapid content ideation"
+      ] },
+      { type: "p", text: "The result: Explosive organic reach, viral brand moments, and a direct connection with one of the most engaged audiences on the internet." },
+
+      { type: "h4", text: "06. Influencer Marketing" },
+      { type: "p", text: "People trust people — not ads. That's exactly why influencer marketing has become one of the most effective tools in a brand's arsenal. When your product is recommended by someone your target audience already loves and trusts, the impact is immediate and powerful." },
+      { type: "p", text: "Our influencer marketing service goes beyond simply finding someone with a large following. We identify influencers whose audience genuinely aligns with your brand, manage the entire collaboration process, and ensure every partnership drives authentic engagement and measurable sales." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Influencer identification, vetting, and outreach",
+        "Campaign strategy and creative briefing",
+        "Micro, macro, and mega influencer campaigns",
+        "Performance tracking and ROI reporting"
+      ] },
+      { type: "p", text: "The result: Authentic brand advocacy, increased consumer trust, and a significant boost in conversions." },
+
+      { type: "h4", text: "07. Pinterest Marketing" },
+      { type: "p", text: "Pinterest users aren't just browsing — they're actively planning purchases. This makes Pinterest one of the most underrated platforms for reaching prospects early in their buyer journey, when they're most open to discovering new brands." },
+      { type: "p", text: "Our Pinterest marketing strategies leverage the platform's powerful targeting capabilities and diverse ad formats to connect your brand with high-intent audiences at exactly the right moment." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Promoted Pin campaigns and Shopping Ads",
+        "Board strategy and keyword-optimized pin creation",
+        "Audience targeting based on interests, keywords, and demographics",
+        "Pinterest Analytics tracking and campaign optimization"
+      ] },
+      { type: "p", text: "The result: Strong brand awareness, highly engaged traffic, and leads that are already primed to convert." },
+
+      { type: "h4", text: "08. Twitter / X Marketing" },
+      { type: "p", text: "Twitter (now X) remains one of the fastest-moving platforms for real-time conversations, trending topics, and direct brand-to-consumer engagement. With the right strategy, it's a powerful channel for growing a loyal, high-value audience." },
+      { type: "p", text: "Ad engagement on Twitter grew by 35% in a single quarter, and brands that invest in strategic Twitter marketing consistently see stronger reach and interaction. We help you promote your content to the right people, grow your follower base, and drive meaningful conversations around your brand." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Promoted tweet and Twitter ad campaign management",
+        "Content strategy for organic follower growth",
+        "Real-time trend monitoring and reactive content",
+        "Audience targeting to maximize relevance and engagement"
+      ] },
+      { type: "p", text: "The result: Up to 150% more clicks, replies, and retweets — and a growing community of high-value followers who genuinely care about your brand." },
+
+      { type: "h4", text: "09. Social Media Management" },
+      { type: "p", text: "Maintaining a consistent, professional presence across multiple platforms is a full-time job. That's where we come in." },
+      { type: "p", text: "As a full-service social media management company, we handle everything — from choosing the right platforms for your business to creating scroll-stopping content, monitoring conversations, responding to your audience, and tracking performance across every channel." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Platform selection and social media strategy development",
+        "Content creation, scheduling, and publishing",
+        "Community management and audience engagement",
+        "Brand reputation monitoring and response strategy",
+        "In-depth performance reporting using industry-leading tools"
+      ] },
+      { type: "p", text: "The result: A cohesive, active brand presence that builds trust, drives engagement, and frees you up to focus on running your business." },
+
+      { type: "h3", text: "Why Partner With Us for Social Media Marketing?" },
+      { type: "p", text: "There's no shortage of social media agencies making big promises. Here's why businesses across industries choose Adhawk Technologies:" },
+      { type: "ul", items: [
+        "Platform specialists, not generalists — we know each platform inside and out",
+        "Data-driven decisions — every strategy is backed by research and real-time insights",
+        "Creative content that actually performs — we combine storytelling with conversion strategy",
+        "Complete transparency — detailed reporting so you always know your ROI",
+        "End-to-end service — from strategy and content creation to execution and optimization"
+      ] },
+
+      { type: "h3", text: "Ready to Elevate Your Social Media Presence?" },
+      { type: "p", text: "Whether you're starting from scratch or looking to take your existing social media to the next level, we're here to help you build a strategy that delivers real, lasting results." },
+
+      { type: "h3", text: "Our social media marketing process" },
+      { type: "p", text: "Unveil the journey to social media success with the most trusted social media marketing agency" },
+      { type: "ol", items: [
+        "Audit your current social media presence",
+        "Identify relevant and profitable social media channels",
+        "Set realistic and measurable goals",
+        "Identify key success metrics",
+        "Create a social media calendar",
+        "Ideation and content creation",
+        "Ad optimization and content publishing",
+        "Campaign monitoring and reporting"
+      ] },
+
+      { type: "h3", text: "Let's build something remarkable together." }
+    ],
     offers: [
       "Profile setup & optimization",
       "Content creation (posts, reels, stories)",
