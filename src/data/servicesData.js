@@ -416,10 +416,187 @@ export const servicesData = [
   {
     key: "sem",
     icon: "SEM",
-    title: "Search Engine Marketing (SEM)",
+    title: "SEM Agency",
     image: images.services.sem,
-    intro:
-      "SEM combines paid strategies to boost your visibility on search engines and generate qualified leads quickly.",
+    headline: "SEM Agency — Get to the Top of Google. Instantly.",
+    intro: "Organic growth is powerful — but it takes time. What if your business needs qualified leads and paying customers right now? That's exactly where Search Engine Marketing (SEM) comes in.",
+    description: [
+      "At Adhawk Technologies, we're a performance-driven SEM agency that helps businesses appear at the very top of search results the moment potential customers are actively looking for what they offer. Every campaign we build is strategically targeted, meticulously optimized, and laser-focused on one thing: delivering the highest possible return on every rupee you spend.",
+      "Because in paid search, the difference between a profitable campaign and a money pit isn't budget — it's strategy, execution, and expertise."
+    ],
+    content: [
+      { type: "h3", text: "What Is SEM and Why Does Your Business Need It?" },
+      { type: "p", text: "Search Engine Marketing is the practice of promoting your business through paid advertisements that appear on search engine results pages — primarily Google and Bing. When someone types in a keyword related to your product or service, your ad appears right at the top — above all organic results — putting your brand directly in front of high-intent buyers at the exact moment they're ready to take action." },
+      { type: "p", text: "Unlike traditional advertising that interrupts people who may not be interested, SEM puts your business in front of people who are actively searching for exactly what you offer. That's what makes it one of the most powerful and cost-effective forms of digital advertising available today." },
+      { type: "p", text: "Here's why smart businesses invest in SEM:" },
+      { type: "ul", items: [
+        "Immediate visibility — appear at the top of Google from day one",
+        "High purchase intent — reach people actively searching for your product or service",
+        "Fully measurable — every click, conversion, and rupee spent is tracked in real time",
+        "Complete budget control — spend as much or as little as you want, and adjust anytime",
+        "Highly targeted — reach the right people by keyword, location, device, time, and more",
+        "Complements SEO — SEM delivers instant results while your organic rankings build over time",
+        "Scalable growth — increase budget as campaigns prove profitable and scale predictably"
+      ] },
+
+      { type: "h3", text: "Our SEM Services" },
+
+      { type: "h4", text: "01. Google Ads Management" },
+      { type: "p", text: "Google processes over 8.5 billion searches every single day — and Google Ads puts your business right at the top of those results. But running Google Ads profitably requires far more than simply setting a budget and choosing a few keywords. Without the right strategy and ongoing optimization, it's very easy to spend a lot and get very little in return." },
+      { type: "p", text: "Our Google Ads specialists build, manage, and continuously optimize campaigns that are strategically structured to maximize your ad spend and deliver consistent, measurable results. From search ads to display, shopping, and beyond — we handle every element with precision." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Full Google Ads account setup and campaign structure",
+        "In-depth keyword research and match type strategy",
+        "Compelling ad copy creation and testing",
+        "Bid strategy and budget management",
+        "Quality Score optimization for lower costs per click",
+        "Negative keyword management to eliminate wasted spend",
+        "Conversion tracking and goal setup",
+        "Ongoing campaign monitoring and optimization"
+      ] },
+      { type: "p", text: "The result: A highly profitable Google Ads account that consistently delivers qualified traffic, leads, and sales — at the lowest possible cost per acquisition." },
+
+      { type: "h4", text: "02. Search Ad Campaigns" },
+      { type: "p", text: "Search ads are the bread and butter of SEM — text-based ads that appear at the top and bottom of Google search results when someone searches for your target keywords. Done right, they're one of the highest-converting forms of digital advertising because they capture demand that already exists." },
+      { type: "p", text: "We craft search campaigns built around deep keyword intelligence and searcher intent — ensuring your ads appear for the searches most likely to convert, with messaging precisely tailored to what your ideal customer is looking for at that exact moment." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Keyword research focused on buyer intent",
+        "Ad group structuring for maximum relevance",
+        "Responsive Search Ad (RSA) creation and testing",
+        "Ad copy that speaks directly to customer pain points",
+        "Landing page alignment for higher Quality Scores",
+        "Search term analysis and ongoing refinement",
+        "Competitor ad monitoring and positioning strategy"
+      ] },
+      { type: "p", text: "The result: Search campaigns that attract high-intent clicks, minimize wasted budget, and drive a consistent flow of qualified leads straight to your business." },
+
+      { type: "h4", text: "03. Display Advertising" },
+      { type: "p", text: "Not every potential customer is actively searching right now — but that doesn't mean you can't reach them. Google's Display Network reaches over 90% of internet users worldwide across millions of websites, apps, and platforms." },
+      { type: "p", text: "Display advertising keeps your brand visible and top of mind with your target audience as they browse the web — building awareness, reinforcing your message, and bringing back visitors who didn't convert the first time. We create visually compelling display campaigns that capture attention and drive action across the entire Google Display Network." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Audience targeting — interest, demographic, and in-market segments",
+        "Custom intent and affinity audience creation",
+        "Eye-catching banner and responsive display ad design",
+        "Placement targeting on relevant websites and apps",
+        "Frequency capping to avoid ad fatigue",
+        "Performance monitoring and creative optimization"
+      ] },
+      { type: "p", text: "The result: Broad brand awareness and consistent visibility across the web — keeping your business front and center with the right audience at every stage of their journey." },
+
+      { type: "h4", text: "04. Remarketing & Retargeting Campaigns" },
+      { type: "p", text: "Did you know that 97% of first-time website visitors leave without taking any action? Remarketing is how you win them back." },
+      { type: "p", text: "Remarketing campaigns specifically target people who have already visited your website, engaged with your content, or interacted with your brand in some way — serving them highly relevant ads as they continue browsing the web. Because these audiences have already shown interest in your business, they convert at significantly higher rates than cold audiences." },
+      { type: "p", text: "We build intelligent remarketing campaigns that re-engage your warmest prospects and guide them back through the funnel toward conversion." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Google Ads remarketing list setup and segmentation",
+        "Dynamic remarketing for eCommerce product retargeting",
+        "Sequential remarketing campaigns for funnel progression",
+        "Cross-platform retargeting strategy",
+        "Custom audience messaging based on on-site behavior",
+        "Frequency and recency optimization"
+      ] },
+      { type: "p", text: "The result: Higher conversion rates, lower cost per acquisition, and a significantly better return on your overall advertising investment." },
+
+      { type: "h4", text: "05. Google Shopping Ads" },
+      { type: "p", text: "If you run an eCommerce business, Google Shopping Ads are one of the most powerful tools in your arsenal. These visual product ads appear directly in Google search results — showing your product image, price, and store name to shoppers who are actively ready to buy." },
+      { type: "p", text: "We set up and manage Shopping campaigns that put your products in front of high-intent buyers at the exact moment they're searching — driving qualified traffic directly to your product pages and maximizing your eCommerce revenue." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Google Merchant Center setup and product feed optimization",
+        "Shopping campaign structure and bidding strategy",
+        "Product title and description optimization for better visibility",
+        "Smart Shopping and Performance Max campaign management",
+        "Competitive pricing and positioning analysis",
+        "ROAS-focused bid optimization and performance tracking"
+      ] },
+      { type: "p", text: "The result: Greater product visibility in Google search, higher qualified traffic to your store, and significantly more eCommerce revenue at a strong return on ad spend." },
+
+      { type: "h4", text: "06. YouTube Ads" },
+      { type: "p", text: "YouTube is the second largest search engine in the world — and YouTube advertising gives you access to over 2 billion logged-in users every month. It's one of the most powerful platforms for combining the reach of video storytelling with the precise targeting of search advertising." },
+      { type: "p", text: "We create and manage YouTube ad campaigns that put your brand's message in front of exactly the right audience — whether you're building awareness at the top of the funnel or driving direct conversions further down." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "YouTube campaign strategy and audience targeting",
+        "Skippable and non-skippable in-stream ad management",
+        "Bumper ad and discovery ad campaigns",
+        "Video ad script and creative brief development",
+        "Remarketing to website visitors via YouTube",
+        "View rate, click-through rate, and conversion optimization"
+      ] },
+      { type: "p", text: "The result: Powerful video advertising that builds brand awareness at scale, drives high-intent traffic, and delivers measurable ROI from one of the world's most engaged platforms." },
+
+      { type: "h4", text: "07. Landing Page Optimization" },
+      { type: "p", text: "Driving traffic to your website is only half the job. If your landing page isn't designed to convert that traffic into leads or sales, you're paying for clicks that go nowhere. A poorly optimized landing page is one of the most common — and most costly — mistakes in paid advertising." },
+      { type: "p", text: "We design and optimize high-converting landing pages specifically built for your SEM campaigns — ensuring that every visitor who clicks your ad has the best possible chance of taking action." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Conversion-focused landing page design and copywriting",
+        "Clear, compelling calls to action and lead capture forms",
+        "Page speed optimization for better Quality Scores and user experience",
+        "Mobile responsiveness across all devices",
+        "A/B testing of headlines, copy, layout, and CTAs",
+        "Heatmap analysis and user behavior tracking"
+      ] },
+      { type: "p", text: "The result: Landing pages that turn paid traffic into real leads and customers — dramatically improving your conversion rate and reducing your cost per acquisition." },
+
+      { type: "h4", text: "08. SEM Audit & Account Takeover" },
+      { type: "p", text: "Already running Google Ads but not seeing the results you expected? You're not alone. Many businesses are unknowingly wasting a significant portion of their ad budget due to poor account structure, broad keyword targeting, weak ad copy, or missing conversion tracking." },
+      { type: "p", text: "Our SEM audit service gives you a complete, honest picture of exactly where your budget is going — and a clear action plan for improving performance immediately." },
+      { type: "p", text: "What we offer:" },
+      { type: "ul", items: [
+        "Full Google Ads account audit and performance analysis",
+        "Wasted spend identification and immediate quick wins",
+        "Keyword, ad copy, and landing page review",
+        "Conversion tracking verification and setup",
+        "Competitor benchmarking and gap analysis",
+        "Restructuring and optimization roadmap",
+        "Seamless account takeover and campaign management"
+      ] },
+      { type: "p", text: "The result: A clear understanding of why your current campaigns aren't performing — and a proven roadmap to fix them fast and start generating the returns your budget deserves." },
+
+      { type: "h3", text: "What Happens When Your SEM Strategy Is Wrong?" },
+      { type: "p", text: "Running Google Ads without the right strategy isn't just ineffective — it's actively expensive. Here's what poor SEM management typically costs businesses:" },
+      { type: "ol", items: [
+        "Wasted Budget on the Wrong Keywords — Broad, poorly researched keywords attract clicks from people who were never going to buy. Without tight keyword targeting and negative keyword management, a significant portion of your budget is simply wasted on irrelevant traffic.",
+        "High Clicks, Zero Conversions — Traffic without conversions means your landing page, ad messaging, or audience targeting is misaligned. Every click costs money — and if they're not converting, that money is gone.",
+        "Skyrocketing Cost Per Acquisition — Without continuous optimization, your cost per lead or sale creeps higher over time. What started as a profitable campaign gradually becomes an expensive habit with diminishing returns.",
+        "Losing Ground to Competitors — Your competitors are advertising on Google right now. Without a well-managed SEM strategy, they're claiming the clicks — and the customers — that should be coming to you.",
+        "No Visibility Into What's Working — Without proper conversion tracking and reporting, you have no idea which campaigns, keywords, or ads are actually driving results. Blind spending is the fastest way to burn through a budget."
+      ] },
+
+      { type: "h3", text: "Our SEM Process" },
+      { type: "p", text: "Every SEM engagement we take on follows a structured, results-oriented process:" },
+      { type: "ol", items: [
+        "Business & Goal Discovery — Understanding your objectives, audience, and competitive landscape",
+        "Account Audit — Reviewing any existing campaigns to identify opportunities and issues",
+        "Keyword Research & Strategy — Building a comprehensive keyword map based on intent and opportunity",
+        "Campaign Build & Setup — Structuring campaigns, ad groups, and ads for maximum relevance and Quality Score",
+        "Landing Page Review & Optimization — Ensuring your destination pages are built to convert",
+        "Launch & Active Monitoring — Going live and watching performance closely from day one",
+        "Ongoing Optimization — Continuously refining bids, keywords, ads, and audiences based on real data",
+        "Transparent Reporting — Regular performance reviews with clear insights and forward recommendations"
+      ] },
+
+      { type: "h3", text: "Why Choose Adhawk Technologies for SEM?" },
+      { type: "p", text: "Managing paid search campaigns profitably is both an art and a science. Here's why businesses across Mumbai trust Adhawk Technologies with their SEM investment:" },
+      { type: "ul", items: [
+        "Certified Google Ads specialists with hands-on experience across industries",
+        "Performance-obsessed — we optimize relentlessly because your budget deserves to work harder",
+        "Full funnel thinking — we don't just drive traffic, we optimize the entire path to conversion",
+        "Complete transparency — you own your accounts and see exactly where every rupee goes",
+        "No long-term lock-in — we earn your continued business through results, not contracts",
+        "Integrated approach — your SEM strategy works in harmony with your SEO, content, and social media efforts"
+      ] },
+
+      { type: "h3", text: "Ready to Put Your Business at the Top of Google?" },
+      { type: "p", text: "Every day without a well-managed SEM strategy is a day your competitors are claiming the customers who are actively searching for what you offer." },
+      { type: "p", text: "Whether you're launching your first Google Ads campaign or looking to dramatically improve the performance of an existing one, Adhawk Technologies has the expertise, tools, and dedication to make your paid search investment genuinely profitable." },
+      { type: "p", text: "Let's get your business to the top — and keep it there." }
+    ],
     offers: [
       "Search ads campaign setup & management",
       "Keyword bidding strategy",

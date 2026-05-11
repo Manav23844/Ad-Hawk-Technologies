@@ -810,7 +810,8 @@ input:focus, textarea:focus {
 .service-menu-media.service-media--seo img,
 .service-menu-media.service-media--email img,
 .service-menu-media.service-media--branding img,
-.service-menu-media.service-media--smo img {
+.service-menu-media.service-media--smo img,
+.service-menu-media.service-media--sem img {
   object-fit: contain;
   padding: 10px;
 }
@@ -1015,7 +1016,8 @@ input:focus, textarea:focus {
 .service-media--seo img,
 .service-media--email img,
 .service-media--branding img,
-.service-media--smo img {
+.service-media--smo img,
+.service-media--sem img {
   object-fit: contain;
   background: var(--grey-100);
   padding: 14px;
@@ -1024,7 +1026,8 @@ input:focus, textarea:focus {
 .service-card.service-card--detail .service-media--seo img,
 .service-card.service-card--detail .service-media--email img,
 .service-card.service-card--detail .service-media--branding img,
-.service-card.service-card--detail .service-media--smo img {
+.service-card.service-card--detail .service-media--smo img,
+.service-card.service-card--detail .service-media--sem img {
   object-fit: contain;
   padding: 18px;
 }
