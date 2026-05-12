@@ -120,25 +120,31 @@ export default function ServiceDetailPage() {
             </div>
           ) : null}
 
-          <div className="service-split">
-            <div>
-              <h4>What we offer</h4>
-              <ul>
-                {service.offers.map((x) => (
-                  <li key={x}>{x}</li>
-                ))}
-              </ul>
-            </div>
+          {(Array.isArray(service.offers) && service.offers.length > 0) || (Array.isArray(service.benefits) && service.benefits.length > 0) ? (
+            <div className="service-split">
+              {Array.isArray(service.offers) && service.offers.length > 0 && (
+                <div>
+                  <h4>What we offer</h4>
+                  <ul>
+                    {service.offers.map((x) => (
+                      <li key={x}>{x}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
 
-            <div>
-              <h4>Benefits</h4>
-              <ul className="service-benefits">
-                {service.benefits.map((x) => (
-                  <li key={x}>{x}</li>
-                ))}
-              </ul>
+              {Array.isArray(service.benefits) && service.benefits.length > 0 && (
+                <div>
+                  <h4>Benefits</h4>
+                  <ul className="service-benefits">
+                    {service.benefits.map((x) => (
+                      <li key={x}>{x}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
-          </div>
+          ) : null}
 
           <div className="service-actions">
             <Link className="btn btn-sm" to="/?section=contact">Get Pricing</Link>
