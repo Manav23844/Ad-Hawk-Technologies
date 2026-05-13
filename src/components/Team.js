@@ -44,7 +44,7 @@ function Team() {
 
         <div className="card">
           <div className="avatar" aria-hidden="true">
-            <img src={require("../assets/team/manav.png")} alt="" />
+            <img src={require("../assets/team/Manav.jpeg")} alt="" />
           </div>
           <h3>Manav Mangonda</h3>
           <p>Full Stack Developer</p>

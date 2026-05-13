@@ -4,7 +4,7 @@ export const servicesData = [
   {
     key: "seo",
     icon: "SEO",
-    title: "Best SEO Agency to Grow Your Business Organically",
+    title: "Search Engine Optimization (SEO)",
     image: images.services.seo,
     headline: "Best SEO Agency to Grow Your Business Organically",
     intro: "Are you tired of SEO agencies that promise the world but deliver nothing? At Adhawk Technologies, we do things differently. We help businesses rank higher on Google, attract the right audience, and convert organic traffic into real, measurable revenue — not just vanity metrics.",
@@ -254,7 +254,7 @@ export const servicesData = [
   {
     key: "smo",
     icon: "SMO",
-    title: "Social Media Marketing Agency",
+    title: "Social Media Marketing (SMO) ",
     image: images.services.smo,
     headline: "Social Media Marketing Agency — Drive Real Growth Across Every Platform",
     intro: "In today's digital world, your customers are scrolling, liking, sharing, and buying on social media every single day. The question is — is your brand showing up where it matters most?",
@@ -416,7 +416,7 @@ export const servicesData = [
   {
     key: "sem",
     icon: "SEM",
-    title: "SEM Agency",
+    title: "Search Engine Marketing (SEM)",
     image: images.services.sem,
     headline: "SEM Agency — Get to the Top of Google. Instantly.",
     intro: "Organic growth is powerful — but it takes time. What if your business needs qualified leads and paying customers right now? That's exactly where Search Engine Marketing (SEM) comes in.",
@@ -610,7 +610,7 @@ export const servicesData = [
   {
     key: "email",
     icon: "Email",
-    title: "Email Marketing Agency",
+    title: "Email Marketing (EM)",
     image: images.services.email,
     headline: "Turn Every Email Into a Revenue Opportunity",
     intro:
@@ -865,7 +865,7 @@ export const servicesData = [
   {
     key: "content",
     icon: "Content",
-    title: "Content Marketing Agency",
+    title: "Content Marketing (CM)",
     image: images.services.content,
     headline: "Create Content That Attracts, Engages, and Converts",
     intro:
@@ -1213,7 +1213,7 @@ export const servicesData = [
   {
     key: "branding",
     icon: "Brand",
-    title: "Branding Agency",
+    title: "Branding ",
     image: images.services.branding,
     headline: "Build a Brand That People Remember, Trust, and Choose",
     intro:
