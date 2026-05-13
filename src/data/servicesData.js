@@ -254,7 +254,7 @@ export const servicesData = [
   {
     key: "smo",
     icon: "SMO",
-    title: "Social Media Marketing (SMO) ",
+    title: "Social Media Marketing (SMM) ",
     image: images.services.smo,
     headline: "Social Media Marketing Agency — Drive Real Growth Across Every Platform",
     intro: "In today's digital world, your customers are scrolling, liking, sharing, and buying on social media every single day. The question is — is your brand showing up where it matters most?",
@@ -610,7 +610,7 @@ export const servicesData = [
   {
     key: "email",
     icon: "Email",
-    title: "Email Marketing (EM)",
+    title: "Email Marketing",
     image: images.services.email,
     headline: "Turn Every Email Into a Revenue Opportunity",
     intro:
@@ -865,7 +865,7 @@ export const servicesData = [
   {
     key: "content",
     icon: "Content",
-    title: "Content Marketing (CM)",
+    title: "Content Marketing ",
     image: images.services.content,
     headline: "Create Content That Attracts, Engages, and Converts",
     intro:

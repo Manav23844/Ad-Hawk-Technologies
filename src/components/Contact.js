@@ -23,6 +23,11 @@ function Contact() {
             </label>
 
             <label className="field">
+              <span>Phone Number</span>
+              <input type="tel" placeholder="+91 9876543210" />
+            </label>
+
+            <label className="field">
               <span>Message</span>
               <textarea placeholder="Tell us what you want to achieve…" rows={5}></textarea>
             </label>
@@ -41,9 +46,9 @@ function Contact() {
               <li>We share a simple plan + pricing.</li>
             </ul>
 
-            <div className="contact-pill">
+            {/* <div className="contact-pill">
               <strong>Tip:</strong> Include your website link for faster auditing.
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
