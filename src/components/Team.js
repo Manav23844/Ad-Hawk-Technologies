@@ -11,7 +11,7 @@ const teamData = [
   {
     id: "bipin",
     name: "Bipin Singh",
-    role: "Digital/Search Marketing Vetran",
+    role: "Chief Performance Officer",
     image: require("../assets/team/bipin.png"),
     bio: "More than 14 years of experience in digital marketing, SEM/SEO with a strong background of campaign creation, management and optimization. Email marketing, brand management and social media marketing for clients across finance, automotive, banking, SaaS, healthcare, hospitality, telecom, life insurance and real estate domains. Specializing in paid media (search/social) and programmatic media buying (RTB/ DV360/SA360), also creative and resourceful, with ability to manage performance based online media campaigns such as SEO(onpage, offpage), email marketing, social media marketing & display Marketing, programmatic marketing, online media planning, development of websites and related apps, as well as creative banners. Highly motivated and very strong in research and have made sure to keep myself stay abreast of the latest digital marketing trends by following/writing/ sharing blogs and articles"
   },
@@ -48,15 +48,15 @@ function Team() {
     <section className="section light" id="team">
       <h2>Our Team</h2>
       <p className="section-text">
-        Our team consists of creative thinkers, developers, and marketing experts dedicated 
+        Our team consists of creative thinkers, developers, and marketing experts dedicated
         to delivering high-quality solutions and exceptional results for every client.
       </p>
 
       <div className="grid team-grid">
         {teamData.map((member) => (
-          <div 
-            className="card" 
-            key={member.id} 
+          <div
+            className="card"
+            key={member.id}
             onClick={() => openModal(member)}
             role="button"
             tabIndex={0}

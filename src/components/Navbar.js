@@ -27,7 +27,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <Link className="logo" to="/" aria-label="Go to home">
-        <img src="/ADHAWK_RED_PNG.png" className="logo-img" alt="AdHawk logo" />
+        <img src="/ADHAWK_RED_PNG.png" className="logo-img" alt="Ad Hawk logo" />
       </Link>
 
       <div className="links">

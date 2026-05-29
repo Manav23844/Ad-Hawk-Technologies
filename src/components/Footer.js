@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer-container">
         <div className="footer-brand">
-          <h2>Adhawk Technologies</h2>
+          <h2>Ad Hawk Technologies</h2>
           <p>
             We are a results-driven performance marketing agency that helps businesses reach the right audience and drive real, measurable growth.
           </p>
@@ -67,7 +67,7 @@ function Footer() {
       </div>
       
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Adhawk Technologies. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Ad Hawk Technologies. All rights reserved.</p>
       </div>
     </footer>
   );
