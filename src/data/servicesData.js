@@ -148,7 +148,7 @@ export const servicesData = [
     icon: "PPC",
     title: "Pay-Per-Click Advertising (PPC)",
     image: images.services.ppc,
-    detailImage: images.highlights.performance,
+
     headline: "Performance Marketing Agency is the solution that can help you get instant results and high-quality leads.",
     intro: "PPC advertising works as soon as it's done, and it puts your business in front of the right people at the right time.",
     description: [
