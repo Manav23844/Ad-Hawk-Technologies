@@ -4,9 +4,9 @@ const teamData = [
   {
     id: "tim",
     name: "Timothy McClung",
-    role: "Co-Founder - SEO | PPC | SMO | Web Design",
+    role: "Co-Founder · Growth Strategist & Digital Marketing Expert",
     image: require("../assets/team/tim.png"),
-    bio: "Co-Founder at Ad Hawk Technologies with expertise in SEO, PPC, SMO, and Web Design."
+    bio: "\"I built Ad Hawk Technologies on a simple belief: small businesses deserve the same strategic firepower as the big players — without the complexity or confusion.\"\n\nTim McClung is the Co-Founder of Ad Hawk Technologies and a seasoned growth strategist with more than 20 years of experience helping brands scale intelligently in an ever-changing digital landscape. His career spans the full arc of modern marketing — from the early days of digital advertising to today's data-rich, performance-driven ecosystem — giving him a rare, grounded perspective that few strategists can match.\n\nTim's work is rooted in a direct, no-fluff approach to business growth. He partners closely with small business owners who are ready to grow but aren't sure where to start — helping them cut through the noise, identify the highest-leverage opportunities, and build a clear path forward. Whether the challenge is figuring out where to focus, understanding how to measure real progress, or determining whether marketing dollars are actually moving the needle, Tim brings the clarity and conviction to answer those questions honestly.\n\nWhat sets Tim apart is his belief that strategy without transparency is just guesswork. Every engagement is built on open communication, honest reporting, and a genuine commitment to the client's success — not just the appearance of it. He doesn't believe in hiding behind jargon or vanity metrics. His clients always know what's working, what isn't, and exactly what comes next.\n\nAt Ad Hawk Technologies, Tim has built a practice centered on data-driven decision-making paired with human-first partnership. He understands that for most small business owners, every dollar invested in growth carries real weight — and he treats it accordingly. His goal isn't just to deliver a service; it's to become the kind of trusted partner that business owners rely on when it matters most.\n\nWith two decades of brand-scaling experience and a track record of helping businesses find their footing and accelerate, Tim brings both the strategic depth and the personal investment that growing companies need to navigate today's digital ecosystem — and thrive in it.\n\nAd Hawk Technologies · Your Growth. Our Mission."
   },
   {
     id: "bipin",
@@ -35,6 +35,13 @@ const teamData = [
     role: "Full Stack Developer",
     image: require("../assets/team/Manav.jpeg"),
     bio: "Frontend Developer at Ad Hawk Technologies passionate about creating modern, responsive, and user-friendly web experiences. Specialized in building clean and interactive websites using React.js, Tailwind CSS, JavaScript, and modern UI frameworks.\n\nFocused on developing fast, visually appealing, and performance-driven websites that help businesses strengthen their digital presence. Experienced in creating responsive landing pages and dynamic web applications with a strong emphasis on functionality and user experience.\n\nContinuously learning and improving skills in frontend development, UI/UX design, and full-stack technologies to deliver better digital solutions for clients and users."
+  },
+  {
+    id: "jackson",
+    name: "Jackson",
+    role: "Director of Pawsitivity",
+    image: require("../assets/team/Jack.jpeg"),
+    bio: "Meet Jackson, our paw-sitively perfect Indian breed who keeps our team smiling! As the Director of Pawsitivity, Jackson is an expert in boosting morale and spreading joy. Whether he’s offering a warm greeting to clients or keeping an eye on the creative process, Jackson is always ready to lend a paw."
   }
 ];
 
