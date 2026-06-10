@@ -1,12 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, Suspense } from "react";
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
 import Services from "../components/Services";
 import AboutUs from "../components/About";
-import Portfolio from "../components/Portfolio";
-import Team from "../components/Team";
-import Testimonials from "../components/Testimonials";
-import Contact from "../components/Contact";
+
+const Portfolio = React.lazy(() => import("../components/Portfolio"));
+const Team = React.lazy(() => import("../components/Team"));
+const Testimonials = React.lazy(() => import("../components/Testimonials"));
+const Contact = React.lazy(() => import("../components/Contact"));
 
 export default function HomePage() {
   const location = useLocation();
@@ -29,10 +30,12 @@ export default function HomePage() {
       <Hero />
       <Services />
       <AboutUs />
-      <Portfolio />
-      <Team />
-      <Testimonials />
-      <Contact />
+      <Suspense fallback={<div style={{ minHeight: '50vh' }}></div>}>
+        <Portfolio />
+        <Team />
+        <Testimonials />
+        <Contact />
+      </Suspense>
     </>
   );
 }

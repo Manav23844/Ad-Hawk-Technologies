@@ -1,22 +1,26 @@
+import React, { Suspense } from 'react';
 import './App.css';
 
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
-import ServicesPage from './pages/ServicesPage';
-import ServiceDetailPage from './pages/ServiceDetailPage';
 
 import { HashRouter, Route, Routes } from "react-router-dom";
+
+const ServicesPage = React.lazy(() => import('./pages/ServicesPage'));
+const ServiceDetailPage = React.lazy(() => import('./pages/ServiceDetailPage'));
 
 function App() {
   return (
     <HashRouter>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/services/:key" element={<ServiceDetailPage />} />
-      </Routes>
+      <Suspense fallback={<div></div>}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/services/:key" element={<ServiceDetailPage />} />
+        </Routes>
+      </Suspense>
       <Footer />
     </HashRouter>
   );

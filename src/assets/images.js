@@ -1,10 +1,10 @@
-import seo from "./SEO.png";
-import ppc from "./PPC.png";
-import smo from "./SMM.png";
-import sem from "./SEM.png";
-import email from "./EM.png";
-import content from "./Content_Marketing.png";
-import branding from "./Branding.png";
+import seo from "./SEO.webp";
+import ppc from "./PPC.webp";
+import smo from "./SMM.webp";
+import sem from "./SEM.webp";
+import email from "./EM.webp";
+import content from "./Content_Marketing.webp";
+import branding from "./Branding.webp";
 
 export const images = {
   hero: "https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=1400&q=80",

@@ -26,7 +26,7 @@ function Hero() {
 
         <div className="hero-img" aria-label="Hero marketing video">
           {videoError ? (
-            <img src={images.hero} alt="Digital marketing strategy and branding" loading="eager" />
+            <img src={images.hero} alt="Digital marketing strategy and branding" loading="eager" fetchpriority="high" />
           ) : (
             <>
               {!videoReady ? <div className="hero-video-placeholder" aria-hidden="true" /> : null}
