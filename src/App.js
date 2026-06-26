@@ -5,14 +5,14 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const ServicesPage = React.lazy(() => import('./pages/ServicesPage'));
 const ServiceDetailPage = React.lazy(() => import('./pages/ServiceDetailPage'));
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
       <Suspense fallback={<div></div>}>
         <Routes>
@@ -22,7 +22,7 @@ function App() {
         </Routes>
       </Suspense>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
